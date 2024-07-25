@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.flowers{
+  width: 100vw;
+  height: 100px;
+}
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  
+}
+.title{
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-size: 70px;
+}
+
+.title_main{
+  text-align: center;
+  margin-bottom: 20px;
+  height: 55px;
+  margin-left: 10px;
+  background-color: #E393A6;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  font-family: 'Mohave', sans-serif;
+  font-size: 23px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.subtitle{
+  font-family: 'Mohave', sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .flowers{
+    width: 100vw;
+    height: 150px;
+  }
+  .container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    
+  }
+  .title{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 80px;
+  }
+  .subtitle{
+    font-family: 'Mohave', sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+}
